@@ -1,0 +1,20 @@
+package steelMod;
+
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import steelMod.lists.ItemList;
+
+public class SteelItemGroup extends ItemGroup
+{
+	public SteelItemGroup()
+	{
+		super("Steel Mod");
+	}
+	@Override
+	public ItemStack createIcon()
+	{
+		
+		return new ItemStack(ItemList.steel_ingot);
+	}
+}
+

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "i i",
+        "i i"
+    ],
+    "key": {
+        "i": {
+            "item": "ncwdsteelmod:steel_ingot"
+        }
+    },
+    "result": {
+        "item": "ncwdsteelmod:steel_boots",
+        "count": 1
+    }
+}

@@ -1,0 +1,38 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="[25,)" #mandatory (24 is current forge version)
+
+[[mods]] #mandatory
+modId="ncwdsteelmod" #mandatory
+version="0.1" #mandatory
+displayName="ncwd's Steel Mod" #mandatory
+
+updateJSONURL="http://myurl.me/" #optional
+displayURL="http://example.com/" #optional
+logoFile="examplemod.png" #optional
+credits="Thank you computer!" #optional
+authors="ncwd" #optional
+
+description='''
+Turn iron into steel!
+
+
+'''
+[[dependencies.examplemod]] #optional
+    
+    modId="forge" #mandatory
+    
+    mandatory=true #mandatory
+    
+    versionRange="[25,)" #mandatory
+    
+    ordering="NONE"
+    
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.13.2]"
+    ordering="NONE"
+    side="BOTH"

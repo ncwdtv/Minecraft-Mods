@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "ncwdsteelmod:steel_ingot"
+        },
+        {
+            "item": "minecraft:stick"
+        },
+        {
+            "item": "minecraft:stick"
+        }
+    ],
+    "result": {
+        "item": "ncwdsteelmod:steel_shovel",
+        "count": 1
+    }
+}

@@ -1,0 +1,23 @@
+package data.ncwdsteelmod.recipes;
+
+public class Snippet {
+	{
+	    "type": "minecraft:crafting_shapeless",
+	    "ingredients": [
+	        {
+	            "item": "minecraft:iron_ingot"
+	        },
+	        {
+	            "item": "minecraft:stick"
+	        },
+	        {
+	            "item": "minecraft:stick"
+	        }
+	    ],
+	    "result": {
+	        "item": "minecraft:iron_shovel",
+	        "count": 1
+	    }
+	}
+}
+

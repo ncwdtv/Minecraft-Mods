@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        " / ",
+        " / "
+    ],
+    "key": {
+        "i": {
+            "item": "ncwdsteelmod:steel_ingot"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "ncwdsteelmod:steel_shovel",
+        "count": 1
+    }
+}
